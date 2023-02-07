@@ -1,0 +1,712 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user login amazon account",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1154558000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.StepDefinitions.LoginSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 897808000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"shaikarifa.asha@gmail.com\" and click on continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shaikarifa.asha@gmail.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.StepDefinitions.LoginSteps.enterUsernameAndClickOnContinueButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170759000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"Arifa@786\" and click on submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arifa@786\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.StepDefinitions.LoginSteps.enterPasswordAndClickOnSubmitButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2348162000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Home page",
+            "match": {
+              "location": "com.StepDefinitions.LoginSteps.userEntersHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-07T04:50:11.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3955808000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Get delivery date of displayed item by enable prime",
+        "description": "",
+        "id": "after-login-page-feature;get-delivery-date-of-displayed-item-by-enable-prime",
+        "after": [
+          {
+            "result": {
+              "duration": 120136000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.closeTab()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38491000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page after login",
+            "match": {
+              "location": "com.StepDefinitions.PrimeProducts.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1919575000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enable prime checkbox",
+            "match": {
+              "location": "com.StepDefinitions.PrimeProducts.userEnablePrimeCheckbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7165818000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "get the first displayed item",
+            "match": {
+              "location": "com.StepDefinitions.PrimeProducts.getTheFirstDisplayedItem()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5772997000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "display delivery date of item",
+            "match": {
+              "location": "com.StepDefinitions.PrimeProducts.displayDeliveryDateOfItem()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Prime"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user login amazon account",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1064298000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.StepDefinitions.LoginSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993635000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"shaikarifa.asha@gmail.com\" and click on continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shaikarifa.asha@gmail.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.StepDefinitions.LoginSteps.enterUsernameAndClickOnContinueButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162634000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"Arifa@786\" and click on submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arifa@786\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.StepDefinitions.LoginSteps.enterPasswordAndClickOnSubmitButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2388892000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Home page",
+            "match": {
+              "location": "com.StepDefinitions.LoginSteps.userEntersHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-07T04:50:35.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3522649000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "user reorders the previous years product",
+        "description": "",
+        "id": "after-login-page-feature;user-reorders-the-previous-years-product",
+        "after": [
+          {
+            "result": {
+              "duration": 106341000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.closeTab()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1206555000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on orders page",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.userIsOnOrdersPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2874639000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user select previous orders",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.userSelectPreviousOrders()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8854813000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Reorder the first product",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.reorderTheFirstProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28233000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user navigate to checkout page",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.userNavigateToCheckoutPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1137157000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user added new address",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.userAddedNewAddress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3834558000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "added address should be visible",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.addedAddressShouldBeVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 809429000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user added payment method",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.userAddedPaymentMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5855781000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "added payment method should be visible",
+            "match": {
+              "location": "com.StepDefinitions.CheckoutPageSteps.addedPaymentMethodShouldBeVisible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reorder"
+          }
+        ]
+      }
+    ],
+    "name": "After login page feature",
+    "description": "",
+    "id": "after-login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/AfterLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-07T04:51:07.919Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3168109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add third deal product to cart",
+        "description": "",
+        "id": "before-login-page-feature;add-third-deal-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 110736000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.closeTab()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59604000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home page",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1630773000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on today-deals",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.userClickOnTodayDeals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35258000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on today deals page",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.userIsOnTodayDealsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9841057000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on third item",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.userClickOnThirdItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20996849000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "add minimum quantity and add product to cart",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.addProductToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134581000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "minimum quantity should be one",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.minimumQuantityShouldBeOne()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DealItem"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-07T04:51:43.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3035087000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Get last mobile details",
+        "description": "",
+        "id": "before-login-page-feature;get-last-mobile-details",
+        "after": [
+          {
+            "result": {
+              "duration": 114038000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.closeTab()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184204000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on home page",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2942426000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user search for mobiles",
+            "match": {
+              "location": "com.StepDefinitions.MobileSteps.userSearchForMobiles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86278000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "list of mobiles should shown",
+            "match": {
+              "location": "com.StepDefinitions.MobileSteps.listOfMobilesShouldShown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309337000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user get last mobile",
+            "match": {
+              "location": "com.StepDefinitions.MobileSteps.userGetLastMobile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6580599000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mobiles details will be shown",
+            "match": {
+              "location": "com.StepDefinitions.MobileSteps.mobilesDetailsWillBeShown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mobiles"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-07T04:51:57.201Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3167609000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "open left nav and go back to menu",
+        "description": "",
+        "id": "before-login-page-feature;open-left-nav-and-go-back-to-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 95972000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.closeTab()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43170000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on home page",
+            "match": {
+              "location": "com.StepDefinitions.AddToCartTodaysDealItem.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2239609000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on left nav",
+            "match": {
+              "location": "com.StepDefinitions.LeftNavSteps.userClickOnLeftNav()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73147000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "nav should be displayed",
+            "match": {
+              "location": "com.StepDefinitions.LeftNavSteps.navShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147005000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on mobiles",
+            "match": {
+              "location": "com.StepDefinitions.LeftNavSteps.userClickOnMobiles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131432000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "back to main menu is displayed",
+            "match": {
+              "location": "com.StepDefinitions.LeftNavSteps.backToMainMenuIsDispalyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153355000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user click on close button",
+            "match": {
+              "location": "com.StepDefinitions.LeftNavSteps.userClickOnCloseButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30322000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "main menu should be closed",
+            "match": {
+              "location": "com.StepDefinitions.LeftNavSteps.userGetBackToMainMenu()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LeftNav"
+          }
+        ]
+      }
+    ],
+    "name": "Before login page feature",
+    "description": "",
+    "id": "before-login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/BeforeLogin.feature",
+    "tags": []
+  }
+]

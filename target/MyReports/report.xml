@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="112.276">
+    <testcase classname="After login page feature" name="Get delivery date of displayed item by enable prime" time="23.683">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enter "shaikarifa.asha@gmail.com" and click on continue button....passed
+And user enter "Arifa@786" and click on submit button.......................passed
+Then user enters Home page..................................................passed
+Given user is on home page after login......................................passed
+When user enable prime checkbox.............................................passed
+Then get the first displayed item...........................................passed
+And display delivery date of item...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="After login page feature" name="user reorders the previous years product" time="32.853">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................passed
+When user enter "shaikarifa.asha@gmail.com" and click on continue button....passed
+And user enter "Arifa@786" and click on submit button.......................passed
+Then user enters Home page..................................................passed
+Given user is on orders page................................................passed
+When user select previous orders............................................passed
+And Reorder the first product...............................................passed
+Then user navigate to checkout page.........................................passed
+When user added new address.................................................passed
+Then added address should be visible........................................passed
+When user added payment method..............................................passed
+Then added payment method should be visible.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Before login page feature" name="Add third deal product to cart" time="35.991">
+        <system-out>
+            <![CDATA[Given user is on home page..................................................passed
+When user click on today-deals..............................................passed
+Then user is on today deals page............................................passed
+When user click on third item...............................................passed
+And add minimum quantity and add product to cart............................passed
+Then minimum quantity should be one.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Before login page feature" name="Get last mobile details" time="13.259">
+        <system-out>
+            <![CDATA[Given user is on home page..................................................passed
+When user search for mobiles................................................passed
+Then list of mobiles should shown...........................................passed
+When user get last mobile...................................................passed
+Then Mobiles details will be shown..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Before login page feature" name="open left nav and go back to menu" time="6.089">
+        <system-out>
+            <![CDATA[Given user is on home page..................................................passed
+When user click on left nav.................................................passed
+Then nav should be displayed................................................passed
+When user click on mobiles..................................................passed
+Then back to main menu is displayed.........................................passed
+When user click on close button.............................................passed
+Then main menu should be closed.............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
